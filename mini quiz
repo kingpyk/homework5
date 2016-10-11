@@ -1,0 +1,32 @@
+0. 탐색기를 열고 git관련 폴더를 모두 지운다.
+1. Git Bash에서 폴더 git-projectA를 만든다.
+mkdir git-projectA git-projectA란 폴더를 만든다
+2. git-projectA 폴더에서 
+https://github.comg/자신의ID/homework3 를 복제한다.
+git clone "주소" 원격 로컬 저장소를 복제한다.
+3. 로컬 Repository에서 B04를 생성하여 add/commit을 한다.
+touch B04로 파일을 만들고 git add,git commit을 한다
+git 저장소에 추가하고 제출한다.
+4. 원격으로 push를 한다.
+git push "주소" 로컬저장소의 내용과 변경사항을 원격저장소로 보낸다,
+5. 원격에서 수정하여 다음 프로그램을 만든다.
+========================================
+연봉을 숫자로 입력받은후, 소득세를 출력한.
+연 봉 1천 만 원 미 만 : 연 봉 의 9.5%
+연 봉 1천 만 원 이 상 ~ 4천 만 원 미 만 : 연 봉 의 19%
+연 봉 4천 만 원 이 상 ~ 8천 만 원 미 만 : 연 봉 의 28%
+연 봉 8천 만 원 이 상 : 연 봉 의 37%
+=====================================ex)
+연봉을 원단위로 입력하세요 
+25000000연봉 금액에 대한 소득세는 4750000입니다.
+6. 로컬에서 원격의 정보사항을 받아온다.(fetch)
+git fetch origin master 원격 저장소의 커밋들을 로컬 저장소로 가져온다.
+7. 로컬브랜치와 원격 받아온 브랜치를 merge한 후 받아온 소스를 컴파일한다.
+git merge 가져온것을 로컬 저장소의 작업과 병합해서 원격저장소랑 병합한다.
+alias javac="경로"javac -encodind UTF-8 B04.java b04
+자바파일 컴파일8. 에러가 발생한다면 수정한 후 add/commit을 한다.
+commit -am 에러수정후 추가하고 원격저장소에 제출한다.
+9. 복제하기 위핸 연결된 원격 연결을 끊는다.
+git remote origin origin주소의 원격 해지
+10. 원격 연결을 apple이란 이름으로 새로 연결한 후 완성된 프로그램을 push한다.
+git remote apple apple이란 별칭주소를 만들고git push 원격과합친다
