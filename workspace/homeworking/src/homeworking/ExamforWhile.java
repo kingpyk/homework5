@@ -10,15 +10,15 @@ public class ExamforWhile  {
 		GuGuDan2 d2 = new GuGuDan2();
 		Scanner s = new Scanner(System.in);
 		System.out.println("***************");
-		System.out.println("¹İº¹¹®         ¿¬½ÀÇÏ±â1");
+		System.out.println("ë°˜ë³µë¬¸         ì—°ìŠµí•˜ê¸°1");
 		System.out.println("**************");
-		System.out.println("1.1ºÎÅÍ ÀÔ·ÂÇÑ ¼ö±îÁö ´õÇÏ±â");
-		System.out.println("2.ÃÖ´ë°ª/ÃÖ¼Ò°ª±¸ÇÏ±â");
-		System.out.println("3.ÀÔ·Â¹ŞÀº ¼ıÀÚÀÇ ÇÕ°è¿Í Æò±Õ±¸ÇÏ±â");
-		System.out.println("4.¿øÇÏ´Â ±¸±¸´Ü Ãâ·ÂÇÏ±â");
-		System.out.println("5.Â¦¼ö´Ü/È¦¼ö´Ü Ãâ·ÂÇÏ±â");
-		System.out.println("6.Á¾·áÇÏ±â");
-		System.out.print("¿øÇÏ´Â ¸Ş´º´Â(¼ıÀÚ¸¦ ÀÔ·ÂÇÏ½Ã¿À)>>");
+		System.out.println("1.1ë¶€í„° ì…ë ¥í•œ ìˆ˜ê¹Œì§€ ë”í•˜ê¸°");
+		System.out.println("2.ìµœëŒ€ê°’/ìµœì†Œê°’êµ¬í•˜ê¸°");
+		System.out.println("3.ì…ë ¥ë°›ì€ ìˆ«ìì˜ í•©ê³„ì™€ í‰ê· êµ¬í•˜ê¸°");
+		System.out.println("4.ì›í•˜ëŠ” êµ¬êµ¬ë‹¨ ì¶œë ¥í•˜ê¸°");
+		System.out.println("5.ì§ìˆ˜ë‹¨/í™€ìˆ˜ë‹¨ ì¶œë ¥í•˜ê¸°");
+		System.out.println("6.ì¢…ë£Œí•˜ê¸°");
+		System.out.print("ì›í•˜ëŠ” ë©”ë‰´ëŠ”(ìˆ«ìë¥¼ ì…ë ¥í•˜ì‹œì˜¤)>>");
 		int menu1 = s.nextInt();
 		switch(menu1){
 			case 1:
@@ -45,30 +45,30 @@ class SumofNumbers{
 	void sum(){ 
 	int sum=0;
 		Scanner a = new Scanner(System.in);
-	System.out.print("###1ºÎÅÍ ÀÔ·ÂÇÑ ¼ö±îÁö ´õÇÏ±â");
-	System.out.print("¸¶Áö¸· ¼ö¸¦ ÀÔ·Â(Q:Á¾·á)");
+	System.out.print("###1ë¶€í„° ì…ë ¥í•œ ìˆ˜ê¹Œì§€ ë”í•˜ê¸°");
+	System.out.print("ë§ˆì§€ë§‰ ìˆ˜ë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)");
 	int num1 = a.nextInt();
 	if(num1 == 'Q')
 		System.exit(0);
 	for(int i=1;i<=num1;i++){
 		sum += i;
 	}
-		System.out.print("ÃÑ ÇÕÀº "+sum+"ÀÔ´Ï´Ù");
+		System.out.print("ì´ í•©ì€ "+sum+"ì…ë‹ˆë‹¤");
 	}
 }
 class MaxAndMin{
 	void maxmin(){
 		Scanner b = new Scanner(System.in);
-		System.out.println("###ÃÖ´ë°ª/ÃÖ¼Ò°ª±¸ÇÏ±â");
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.println("###ìµœëŒ€ê°’/ìµœì†Œê°’êµ¬í•˜ê¸°");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num1 = b.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num2 = b.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num3 = b.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num4 = b.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num5 = b.nextInt();
 		int num[] = {num1,num2,num3,num4,num5};
 		int max=num[0];
@@ -80,23 +80,23 @@ class MaxAndMin{
 			if(num[i]<min)
 				min=num[i];
 		}
-			System.out.print("°¡Àå Å« ¼ö´Â"+max+"ÀÌ°í");
-			System.out.print("°¡Àå ÀÛÀº ¼ö´Â"+min+"ÀÔ´Ï´Ù");
+			System.out.print("ê°€ì¥ í° ìˆ˜ëŠ”"+max+"ì´ê³ ");
+			System.out.print("ê°€ì¥ ì‘ì€ ìˆ˜ëŠ”"+min+"ì…ë‹ˆë‹¤");
 		}
 	}
 class SumAndAvg{
 	void saa(){
 		Scanner c = new Scanner(System.in);
-		System.out.println("###ÇÕ»êÆò±Õ±¸ÇÏ±â");
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.println("###í•©ì‚°í‰ê· êµ¬í•˜ê¸°");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num1 = c.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num2 = c.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num3 = c.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num4 = c.nextInt();
-		System.out.print("0~100±îÁö »çÀÌÀÇ ¼ıÀÚ¸¦ ÀÔ·Â(Q:Á¾·á)>>");
+		System.out.print("0~100ê¹Œì§€ ì‚¬ì´ì˜ ìˆ«ìë¥¼ ì…ë ¥(Q:ì¢…ë£Œ)>>");
 		int num5 = c.nextInt();
 		int sum=0;
 		double avg=0;
@@ -106,28 +106,32 @@ class SumAndAvg{
 		sum += num[i];
 		}
 		avg = sum/5.0;
-		System.out.print("ÇÕ°è´Â"+sum+"ÀÌ°í Æò±ÕÀº"+avg+"ÀÔ´Ï´Ù");
+		System.out.print("í•©ê³„ëŠ”"+sum+"ì´ê³  í‰ê· ì€"+avg+"ì…ë‹ˆë‹¤");
 	}
 }
 class GuGuDan{
 void ggd(){
 	Scanner d = new Scanner(System.in);
-	System.out.println("###¿øÇÏ´Â ±¸±¸´Ü Ãâ·ÂÇÏ±â");
-	System.out.print("Ãâ·ÂÇÏ°í½ÍÀº ´Ü(Q:Á¾·á)");
+	System.out.println("###ì›í•˜ëŠ” êµ¬êµ¬ë‹¨ ì¶œë ¥í•˜ê¸°");
+	System.out.print("ì¶œë ¥í•˜ê³ ì‹¶ì€ ë‹¨(Q:ì¢…ë£Œ)");
 	int num = d.nextInt();
 	if (num<2&&num>10)
-		System.out.println("==> Àß¸øÀÔ·Â");
+		System.out.println("==> ì˜ëª»ì…ë ¥");
 		for(int i=1;i<10;i++)
 		{
-			System.out.println(num+"*"+i+"="+num*i);
+			if(i%2==1)
+			{
+				System.out.println("")
+			}
+			System.out.println(num+"*"+i+"="+num*i+" ");
 		}
 	}
 }
 class GuGuDan2{
 void ggd2(){
 	Scanner e = new Scanner(System.in);
-	System.out.println("###Â¦¼ö´Ü/È¦¼ö´Ü Ãâ·ÂÇÏ±â");
-	System.out.print("E:Â¦¼ö´Ü,O:È¦¼ö´Ü(QÁ¾·á)");
+	System.out.println("###ì§ìˆ˜ë‹¨/í™€ìˆ˜ë‹¨ ì¶œë ¥í•˜ê¸°");
+	System.out.print("E:ì§ìˆ˜ë‹¨,O:í™€ìˆ˜ë‹¨(Qì¢…ë£Œ)");
 	String s = e.next();
 	if(s.equals("E"))
 	{
